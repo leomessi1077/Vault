@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Build output and Vercel state
+client/dist/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
